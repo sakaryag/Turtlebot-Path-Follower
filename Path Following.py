@@ -1,26 +1,5 @@
 #!/usr/bin/env python
-##GORKEM SAKARYA - 150140063
-##
-##     I used PD control for following the path and I adapted values with some 
-##     values for smoothness. My robot can follow Route 1 - Route 2 and Route 3. 
-##	But it is not good for Route 4, maybe it can finished Route 4 but it could 
-##	take too much time. 
-##
-##	**Route 3 is totaly works, if it is too slow in the beginning of pink waypoints,
-##	  Please Wait a bit, it will continue :)
-##
-##	Sometimes it could select wrong way to turn I had not got enough time for correcting it 
-##	If it do something wrong please wait again :) I tried Route 1-2 and 3 all of them are finishing.
-##
-##
-##
-##  EXTRAS:
-##      - Route 3
-##      - Proportional Derivative Control
-##
-##
-##	All other comments are given below, Thank you.
-##
+
 ##
 import rospy
 from geometry_msgs.msg import Transform
